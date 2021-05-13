@@ -1,12 +1,14 @@
 import React from "react";
 import './App.css';
 import './assets/css/bootstrap.css';
-import './assets/js/bootstrap.bundle.js';
+
+import Navbar from "./components/Navbar";
 
 export default function App() {
   return (
     <div>
-      <h1 className='c-test'>Test</h1>
+      <Navbar />
+      <h1 className='c-test'>Aaa</h1>
     </div>
   );
 }
