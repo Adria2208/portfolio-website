@@ -1,0 +1,25 @@
+// IMPORTS
+
+//UTILITIES
+@import '01_utilities/variables';
+@import '01_utilities/functions';
+@import '01_utilities/mixins';
+
+//BASE
+@import '02_base/box-sizing';
+@import '02_base/normalize';
+@import '02_base/reset';
+
+
+//LAYOUTS
+//@import '03_layout/l-ejemplo';
+
+
+//COMPONENTS
+@import '04_components/c-test';
+
+// GLOBALS
+//@import '06_global/g--ejemplo';
+
+// ICONOS
+//@import '06_global/g--ejemplo';
