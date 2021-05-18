@@ -3,12 +3,21 @@ import './App.css';
 import './assets/css/bootstrap.css';
 
 import Navbar from "./components/Navbar";
+import Title from "./components/Title";
+import Content from "./components/Content";
 
 export default function App() {
   return (
-    <div>
+    <div className='c-home'>
       <Navbar />
-      <h1 className='c-test'>Aaa</h1>
+      <div>
+        <div>
+          <h1>Title</h1>
+        </div>
+        <Title />
+      </div>
+
+      <Content />
     </div>
   );
 }

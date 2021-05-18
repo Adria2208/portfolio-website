@@ -12,14 +12,22 @@
 
 
 //LAYOUTS
-//@import '03_layout/l-ejemplo';
+@import '03_layout/l-title';
+@import '03_layout/l-content';
+@import '03_layout/l-hoverpoints';
 
 
 //COMPONENTS
-@import '04_components/c-test';
+@import '04_components/c-home';
+@import '04_components/c-navbar';
+@import '04_components/c-title';
+@import '04_components/c-brand';
+@import '04_components/c-tilt';
+@import '04_components/c-hoverpoint';
 
 // GLOBALS
 //@import '06_global/g--ejemplo';
 
 // ICONOS
-//@import '06_global/g--ejemplo';
+@import '06_global/g--underline-animation';
+@import '06_global/g--mr-auto';
