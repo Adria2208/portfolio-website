@@ -1,0 +1,92 @@
+.c-hoverpoint{
+    height: 300px;
+    width: 300px;
+
+    z-index: 2;
+
+    &:nth-child(1) ~ .c-tilt__bg{
+        transition: all 0.3s;
+        -webkit-transform: rotateX(0deg) rotateY(0deg);
+        -moz-transform: rotateX(0deg) rotateY(0deg);
+        -ms-transform: rotateX(0deg) rotateY(0deg);
+        -o-transform: rotateX(0deg) rotateY(0deg);
+        transform:  rotateX(0deg) rotateY(0deg);
+
+        -webkit-box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.4);
+        -moz-box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.4);
+        box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.4);
+    }
+    &:nth-child(1):hover ~ .c-tilt__bg{
+
+        -webkit-transform: rotateX(20deg) rotateY(-20deg);
+        -moz-transform: rotateX(20deg) rotateY(-20deg);
+        -ms-transform: rotateX(20deg) rotateY(-20deg);
+        -o-transform: rotateX(20deg) rotateY(-20deg);
+        transform:  rotateX(20deg) rotateY(-20deg);
+    }
+
+    &:nth-child(2):hover ~ .c-tilt__bg{
+
+        -webkit-transform: rotateX(20deg);
+        -moz-transform: rotateX(20deg);
+        -ms-transform: rotateX(20deg);
+        -o-transform: rotateX(20deg);
+        transform:  rotateX(20deg);
+    }
+
+    &:nth-child(3):hover ~ .c-tilt__bg{
+
+        -webkit-transform: rotateX(20deg) rotateY(20deg);
+        -moz-transform: rotateX(20deg) rotateY(20deg);
+        -ms-transform: rotateX(20deg) rotateY(20deg);
+        -o-transform: rotateX(20deg) rotateY(20deg);
+        transform:  rotateX(20deg) rotateY(20deg);
+    }
+
+    &:nth-child(4):hover ~ .c-tilt__bg{
+
+        -webkit-transform: rotateY(-20deg);
+        -moz-transform: rotateY(-20deg);
+        -ms-transform: rotateY(-20deg);
+        -o-transform: rotateY(-20deg);
+        transform:  rotateY(-20deg);
+    }
+
+    &:nth-child(6):hover ~ .c-tilt__bg{
+
+        -webkit-transform: rotateY(20deg);
+        -moz-transform: rotateY(20deg);
+        -ms-transform: rotateY(20deg);
+        -o-transform: rotateY(20deg);
+        transform:  rotateY(20deg);
+    }
+
+    &:nth-child(7):hover ~ .c-tilt__bg{
+
+        -webkit-transform: rotateX(-20deg) rotateY(-20deg);
+        -moz-transform: rotateX(-20deg) rotateY(-20deg);
+        -ms-transform: rotateX(-20deg) rotateY(-20deg);
+        -o-transform: rotateX(-20deg) rotateY(-20deg);
+        transform:  rotateX(-20deg) rotateY(-20deg);
+    }
+
+    &:nth-child(8):hover ~ .c-tilt__bg{
+
+        -webkit-transform: rotateX(-20deg);
+        -moz-transform: rotateX(-20deg);
+        -ms-transform: rotateX(-20deg);
+        -o-transform: rotateX(-20deg);
+        transform:  rotateX(-20deg);
+    }
+
+    &:nth-child(9):hover ~ .c-tilt__bg{
+
+        -webkit-transform: rotateX(-20deg) rotateY(20deg);
+        -moz-transform: rotateX(-20deg) rotateY(20deg);
+        -ms-transform: rotateX(-20deg) rotateY(20deg);
+        -o-transform: rotateX(-20deg) rotateY(20deg);
+        transform:  rotateX(-20deg) rotateY(20deg);
+    }
+
+
+}

@@ -1,0 +1,43 @@
+.c-brand{
+    text-decoration: none;
+
+    color: black;
+    font-size: 20px;
+
+    position: absolute;
+    left: 15px;
+
+    &:hover{
+        text-decoration: none;
+        color: black;
+    }
+
+    &-button{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+
+        margin-right: auto;
+        margin-left: 15px;
+
+        &:hover{
+            text-decoration: none;
+            color: black;
+        }
+
+
+
+    }
+
+    @media (min-width: 992px) {
+        &-button {
+            display: none;
+        }
+    }
+}
+
+.collapsing, .show {
+    .c-brand{
+        display: none;
+    }
+}
