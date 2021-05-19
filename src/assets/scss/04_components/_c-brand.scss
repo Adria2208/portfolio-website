@@ -1,21 +1,17 @@
 .c-brand{
-    text-decoration: none;
 
-    color: black;
-    font-size: 20px;
+    &__desktop{
 
-    position: absolute;
-    left: 15px;
+        @include brand-font-style;
 
-    &:hover{
-        text-decoration: none;
-        color: black;
+        position: absolute;
+        left: 15px;
+    
     }
 
-    &-button{
-        text-decoration: none;
-        color: black;
-        font-size: 20px;
+    &__phone{
+
+        @include brand-font-style;
 
         margin-right: auto;
         margin-left: 15px;
@@ -30,14 +26,17 @@
     }
 
     @media (min-width: 992px) {
-        &-button {
+        &__phone {
             display: none;
         }
-    }
-}
 
-.collapsing, .show {
-    .c-brand{
-        display: none;
+    }
+
+    
+    @media (max-width: 992px) {
+
+        &__desktop {
+            display: none;
+        }
     }
 }

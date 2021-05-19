@@ -1,0 +1,13 @@
+@mixin brand-font-style {
+
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+
+    &:hover{
+        text-decoration: none;
+        color: black;
+    }
+
+}

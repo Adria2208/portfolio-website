@@ -1,9 +1,18 @@
 .c-title{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-    height: 900px;
+    position: absolute;
 
-    z-index: 1;
+    left: 0;
+    right: 0;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    width: fit-content;
+
+    z-index: 2;
+
+    &__text{
+        font-size: 128px;
+    }
 }

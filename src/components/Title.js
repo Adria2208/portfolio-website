@@ -1,25 +1,19 @@
 import React from 'react'
-import Placeholder from '../assets/imgs/placeholder.jpg'
+import Tilt from 'react-tilt'
+import Placeholder from '../assets/imgs/placeholder.png'
 
 
 export default function Title() {
     return (
         <div className='l-title'>
-            <div className='c-tilt'>
-                <div className='l-hoverpoints'>
-                    <div class="c-hoverpoint"></div>
-                    <div class="c-hoverpoint"></div>
-                    <div class="c-hoverpoint"></div>
-                    <div class="c-hoverpoint"></div>
-                    <div class="c-hoverpoint"></div>
-                    <div class="c-hoverpoint"></div>
-                    <div class="c-hoverpoint"></div>
-                    <div class="c-hoverpoint"></div>
-                    <div class="c-hoverpoint"></div>
-                    <div class="c-tilt__bg"></div>
-
-                </div>
+            <div className='c-title'>
+                <h1 className='c-title__text'>Title</h1>
             </div>
+            <Tilt className="Tilt" options={{ max: 15, reverse: true, scale: 1 }}>
+                <div className="Tilt-inner">
+                    <img className='c-tilt' src={Placeholder}></img>
+                </div>
+            </Tilt>
         </div>
     )
 }

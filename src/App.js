@@ -10,14 +10,7 @@ export default function App() {
   return (
     <div className='c-home'>
       <Navbar />
-      <div>
-        <div>
-          <h1>Title</h1>
-        </div>
-        <Title />
-      </div>
-
-      <Content />
+      <Title />
     </div>
   );
 }
