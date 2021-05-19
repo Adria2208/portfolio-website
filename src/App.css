@@ -1,3 +1,43 @@
+@keyframes fadeInTop {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0%;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 100%;
+  }
+}
+@keyframes fadeInBottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0%;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 100%;
+  }
+}
+@keyframes fadeInRight {
+  0% {
+    transform: translateX(50px);
+    opacity: 0%;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 100%;
+  }
+}
+@keyframes fadeInLeft {
+  0% {
+    transform: translateX(-50px);
+    opacity: 0%;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 100%;
+  }
+}
 @font-face {
   font-family: Montserrat;
   src: url("./assets/fonts/Montserrat-Regular.ttf");
@@ -480,7 +520,12 @@ table {
 }
 
 .c-tilt {
-  width: 40vw;
+  width: 500px;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 .g--underline-animation {
@@ -498,6 +543,24 @@ table {
 
 .g--mr-auto {
   margin-right: auto;
+}
+
+.g--center {
+  display: flex;
+  justify-content: center;
+}
+
+.g--fadeInTop {
+  animation: fadeInTop 1s ease-in-out;
+}
+.g--fadeInBottom {
+  animation: fadeInBottom 1s ease-in-out;
+}
+.g--fadeInRight {
+  animation: fadeInRight 1s ease-in-out;
+}
+.g--fadeInLeft {
+  animation: fadeInLeft 1s ease-in-out;
 }
 
 /*# sourceMappingURL=App.css.map */

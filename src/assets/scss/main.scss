@@ -1,6 +1,7 @@
 // IMPORTS
 
 //UTILITIES
+@import '01_utilities/animations';
 @import '01_utilities/variables';
 @import '01_utilities/functions';
 @import '01_utilities/mixins';
@@ -25,3 +26,5 @@
 // GLOBALS
 @import '06_global/g--underline-animation';
 @import '06_global/g--mr-auto';
+@import '06_global/g--center';
+@import '06_global/g--fadeIn';

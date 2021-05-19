@@ -1,3 +1,5 @@
 .c-tilt{
-    width: 40vw;
+    width: 500px;
+
+    @include not-draggable;
 }

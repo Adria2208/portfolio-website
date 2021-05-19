@@ -1,0 +1,19 @@
+.g--fadeIn{
+
+    &Top{
+        animation: fadeInTop 1s ease-in-out;
+    }
+
+    &Bottom{
+        animation: fadeInBottom 1s ease-in-out;
+    }
+
+    &Right{
+        animation: fadeInRight 1s ease-in-out;
+    }
+
+    &Left{
+        animation: fadeInLeft 1s ease-in-out;
+    }
+
+}
