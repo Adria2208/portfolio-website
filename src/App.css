@@ -455,7 +455,7 @@ table {
 }
 
 .c-home {
-  background-color: #5f5fb9;
+  background-color: #044855;
   font-family: Montserrat;
 }
 
@@ -465,6 +465,9 @@ table {
 
 .c-navbar {
   background-color: transparent;
+}
+.c-navbar * {
+  color: #D94B58 !important;
 }
 
 .c-title {
@@ -478,11 +481,12 @@ table {
 }
 .c-title__text {
   font-size: 128px;
+  color: #C0424E;
 }
 
 .c-brand__desktop {
   text-decoration: none;
-  color: black;
+  color: #D94B58;
   font-size: 20px;
   font-weight: bold;
   position: absolute;
@@ -490,11 +494,11 @@ table {
 }
 .c-brand__desktop:hover {
   text-decoration: none;
-  color: black;
+  color: #D94B58;
 }
 .c-brand__phone {
   text-decoration: none;
-  color: black;
+  color: #D94B58;
   font-size: 20px;
   font-weight: bold;
   margin-right: auto;
@@ -502,11 +506,11 @@ table {
 }
 .c-brand__phone:hover {
   text-decoration: none;
-  color: black;
+  color: #D94B58;
 }
 .c-brand__phone:hover {
   text-decoration: none;
-  color: black;
+  color: #D94B58;
 }
 @media (min-width: 992px) {
   .c-brand__phone {
@@ -528,8 +532,7 @@ table {
   -ms-user-select: none;
 }
 
-.g--underline-animation {
-  color: blue;
+.g--underline {
   text-decoration: none;
   background-image: linear-gradient(currentColor, currentColor);
   background-position: 0% 100%;
@@ -537,12 +540,23 @@ table {
   background-size: 0% 2px;
   transition: background-size 0.3s !important;
 }
-.g--underline-animation:hover, .g--underline-animation:focus {
+.g--underline:hover, .g--underline:focus {
   background-size: 100% 2px;
 }
-
-.g--mr-auto {
-  margin-right: auto;
+.g--underline__big {
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s !important;
+  background-size: 0% 4px;
+}
+.g--underline__big:hover, .g--underline__big:focus {
+  background-size: 100% 2px;
+}
+.g--underline__big:hover, .g--underline__big:focus {
+  background-size: 100% 4px;
 }
 
 .g--center {

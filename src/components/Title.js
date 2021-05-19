@@ -7,7 +7,7 @@ export default function Title() {
     return (
         <div className='l-title g--fadeInRight'>
             <div className='c-title'>
-                <h1 className='c-title__text'>Title</h1>
+                <h1 className='c-title__text g--underline__big'>Title</h1>
             </div>
             <Tilt className="Tilt w-75 pt-5 pb-5 g--center" options={{ max: 15, reverse: true, scale: 1 }}>
                 <div className="Tilt-inner">

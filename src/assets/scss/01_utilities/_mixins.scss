@@ -1,13 +1,13 @@
 @mixin brand-font-style {
 
     text-decoration: none;
-    color: black;
+    color: $watermelon;
     font-size: 20px;
     font-weight: bold;
 
     &:hover{
         text-decoration: none;
-        color: black;
+        color: $watermelon;
     }
     
 }
@@ -18,4 +18,18 @@
     -webkit-user-drag: none;
     -webkit-user-select: none;
     -ms-user-select: none;
+}
+
+@mixin underline {
+    text-decoration: none;
+    
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s !important;
+
+    &:hover, &:focus{
+        background-size: 100% 2px;
+    }
 }

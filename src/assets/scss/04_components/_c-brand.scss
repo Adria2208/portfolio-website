@@ -18,14 +18,14 @@
 
         &:hover{
             text-decoration: none;
-            color: black;
+            color: $watermelon;
         }
 
 
 
     }
 
-    @media (min-width: 992px) {
+    @media (min-width: $bootstrap-lg) {
         &__phone {
             display: none;
         }
@@ -33,7 +33,7 @@
     }
 
     
-    @media (max-width: 992px) {
+    @media (max-width: $bootstrap-lg) {
 
         &__desktop {
             display: none;

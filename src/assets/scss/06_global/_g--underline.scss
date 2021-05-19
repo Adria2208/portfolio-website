@@ -1,0 +1,13 @@
+.g--underline {
+    @include underline;
+
+    &__big {
+        @include underline;
+        background-size: 0% 4px;
+
+        &:hover, &:focus{
+            background-size: 100% 4px;
+        }
+    }
+}
+
