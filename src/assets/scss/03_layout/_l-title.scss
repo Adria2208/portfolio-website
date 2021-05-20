@@ -1,7 +1,5 @@
 .l-title{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   @include center-full;
 
     margin-top: 64px;
     margin-bottom: 64px;

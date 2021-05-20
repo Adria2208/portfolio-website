@@ -1,3 +1,16 @@
 .l-content{
-    width: 1000px;
+    margin-top: $m-xl;
+    margin-bottom: $m-xl;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    div{
+        @include center-column-full;
+    }
+
+    @media (max-width: $tablet) {
+        flex-direction: column;
+        margin-left: 0;
+    }
 }

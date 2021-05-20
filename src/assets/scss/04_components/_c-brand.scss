@@ -5,7 +5,7 @@
         @include brand-font-style;
 
         position: absolute;
-        left: 15px;
+        left: $m-sm;
     
     }
 
@@ -14,7 +14,7 @@
         @include brand-font-style;
 
         margin-right: auto;
-        margin-left: 15px;
+        margin-left: $m-sm;
 
         &:hover{
             text-decoration: none;

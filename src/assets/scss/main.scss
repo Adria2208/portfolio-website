@@ -7,6 +7,7 @@
 @import '01_utilities/mixins';
 
 //BASE
+@import '02_base/custom';
 @import '02_base/box-sizing';
 @import '02_base/normalize';
 @import '02_base/reset';
@@ -19,9 +20,11 @@
 //COMPONENTS
 @import '04_components/c-home';
 @import '04_components/c-navbar';
-@import '04_components/c-title';
+@import '04_components/c-title';     
 @import '04_components/c-brand';
 @import '04_components/c-tilt';
+@import '04_components/c-scrollbar';
+@import '04_components/c-content';
 
 // GLOBALS
 @import '06_global/g--underline';

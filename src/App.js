@@ -11,6 +11,7 @@ export default function App() {
     <div className='c-home'>
       <Navbar />
       <Title />
+      <Content />
     </div>
   );
 }

@@ -5,7 +5,7 @@ import Placeholder from '../assets/imgs/placeholder.png'
 
 export default function Title() {
     return (
-        <div className='l-title g--fadeInRight'>
+        <div className='l-title g--fadeInTop'>
             <div className='c-title'>
                 <h1 className='c-title__text g--underline__big'>Title</h1>
             </div>

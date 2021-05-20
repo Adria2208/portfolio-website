@@ -1,0 +1,30 @@
+.c-content{
+
+    &__text{
+        width: 60ch;
+        text-align: justify;
+        margin-right: $m-xl;
+        margin-left: $m-xl;
+        @media (max-width: $desktop) {
+            width: 35ch;
+           }
+    }
+
+    &__img{
+
+        @include center;
+
+        img{
+            width: 100%;
+            max-width: fit-content;
+        }
+
+        animation: float 3s ease-in-out;
+        animation-iteration-count: infinite;
+
+        @media (max-width: $desktop) {
+         width: 230px;   
+        }
+    }
+
+}
